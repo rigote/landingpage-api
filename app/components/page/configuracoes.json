@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_configuracoes",
+  "info": {
+    "name": "configurações",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "cor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  }
+}

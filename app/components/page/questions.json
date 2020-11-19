@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_questions",
+  "info": {
+    "name": "questions",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
